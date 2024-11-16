@@ -13,4 +13,4 @@ The project is organized into three folders:
 
 - testing-integration: This folder contains integration tests, which verify how different parts of the application handle requests and work together.
 - Unit-Test-Jug: This folder contains unit tests that specifically check the effectiveness of the core algorithm.
-- Water-Jug-Challenge: This folder also contains the main code for the algorithm, and we'll be taking a closer look at this folder shortly.
+- Water-Jug-Challenge: This folder  contains the main code for the algorithm, and we'll be taking a closer look at this folder shortly.
