@@ -44,6 +44,8 @@ public class Program
         services.AddMemoryCache(); // Adds in-memory caching service
     }
 
+    // ##########ENDPOINT LOGIC STARTS HERE##########
+
     // Method to configure the HTTP request pipeline
     private static void Configure(WebApplication app)
     {
@@ -183,6 +185,8 @@ public class SolutionStep
     /// </summary>
     public required string Status { get; set; }
 }
+
+// ######ALGORITHM LOGIC STARTS HERE######
 
 /// <summary>
 /// Provides methods to solve the water bucket problem.

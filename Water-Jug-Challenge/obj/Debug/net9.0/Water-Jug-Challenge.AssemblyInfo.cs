@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Water-Jug-Challenge")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a7fe77b64035082ce4b4cb4203b2ba74adb60cd5")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+20dee626b007139740b096367b5d1cc85ecdc1d1")]
 [assembly: System.Reflection.AssemblyProductAttribute("Water-Jug-Challenge")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Water-Jug-Challenge")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
