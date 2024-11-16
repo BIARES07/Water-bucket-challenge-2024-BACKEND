@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Water-Jug-Challenge.props" />
+</Project>

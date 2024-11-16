@@ -1,0 +1,119 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Water-Jug-Challenge</name>
+    </assembly>
+    <members>
+        <member name="T:Program">
+            <summary>
+            The main entry point for the application.
+            </summary>
+        </member>
+        <member name="M:Program.Main(System.String[])">
+            <summary>
+            The main entry point for the application.
+            </summary>
+            <param name="args">The command-line arguments.</param>
+        </member>
+        <member name="T:BucketRequest">
+            <summary>
+            Represents a request to solve the water bucket problem.
+            </summary>
+            <param name="x_capacity">The capacity of bucket X.</param>
+            <param name="y_capacity">The capacity of bucket Y.</param>
+            <param name="z_amount_wanted">The desired amount of water.</param>
+        </member>
+        <member name="M:BucketRequest.#ctor(System.Int32,System.Int32,System.Int32)">
+            <summary>
+            Represents a request to solve the water bucket problem.
+            </summary>
+            <param name="x_capacity">The capacity of bucket X.</param>
+            <param name="y_capacity">The capacity of bucket Y.</param>
+            <param name="z_amount_wanted">The desired amount of water.</param>
+        </member>
+        <member name="P:BucketRequest.x_capacity">
+            <summary>The capacity of bucket X.</summary>
+        </member>
+        <member name="P:BucketRequest.y_capacity">
+            <summary>The capacity of bucket Y.</summary>
+        </member>
+        <member name="P:BucketRequest.z_amount_wanted">
+            <summary>The desired amount of water.</summary>
+        </member>
+        <member name="T:WaterBucket">
+            <summary>
+            Represents a water bucket with a specific capacity and current amount of water.
+            </summary>
+        </member>
+        <member name="P:WaterBucket.Capacity">
+            <summary>
+            Gets or sets the capacity of the water bucket.
+            </summary>
+        </member>
+        <member name="P:WaterBucket.CurrentAmount">
+            <summary>
+            Gets or sets the current amount of water in the bucket.
+            </summary>
+        </member>
+        <member name="T:Solution">
+            <summary>
+            Represents a solution step in the water bucket problem.
+            </summary>
+        </member>
+        <member name="P:Solution.BucketX">
+            <summary>
+            Gets or sets the current amount of water in bucket X.
+            </summary>
+        </member>
+        <member name="P:Solution.BucketY">
+            <summary>
+            Gets or sets the current amount of water in bucket Y.
+            </summary>
+        </member>
+        <member name="P:Solution.Action">
+            <summary>
+            Gets or sets the action taken in this solution step.
+            </summary>
+        </member>
+        <member name="T:SolutionStep">
+            <summary>
+            Represents a step in the solution of the water bucket problem.
+            </summary>
+        </member>
+        <member name="P:SolutionStep.Step">
+            <summary>
+            Gets or sets the step number in the solution.
+            </summary>
+        </member>
+        <member name="P:SolutionStep.BucketX">
+            <summary>
+            Gets or sets the current amount of water in bucket X.
+            </summary>
+        </member>
+        <member name="P:SolutionStep.BucketY">
+            <summary>
+            Gets or sets the current amount of water in bucket Y.
+            </summary>
+        </member>
+        <member name="P:SolutionStep.Action">
+            <summary>
+            Gets or sets the action taken in this step.
+            </summary>
+        </member>
+        <member name="P:SolutionStep.Status">
+            <summary>
+            Gets or sets the status of this step.
+            </summary>
+        </member>
+        <member name="T:BucketSolver">
+            <summary>
+            Provides methods to solve the water bucket problem.
+            </summary>
+        </member>
+        <member name="M:BucketSolver.SolveWaterBucket(System.Int32,System.Int32,System.Int32)">
+            <summary>   
+            Solves the water bucket problem with the given bucket capacities and desired amount of water.
+            </summary>
+        </member>
+    </members>
+</doc>
