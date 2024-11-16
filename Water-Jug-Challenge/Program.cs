@@ -105,7 +105,7 @@ public class Program
     }
 }
 
-// Record to represent the bucket request
+
 /// <summary>
 /// Represents a request to solve the water bucket problem.
 /// </summary>
@@ -114,7 +114,7 @@ public class Program
 /// <param name="z_amount_wanted">The desired amount of water.</param>
 public record BucketRequest(int x_capacity, int y_capacity, int z_amount_wanted);
 
-// Class to represent a water bucket
+
 /// <summary>
 /// Represents a water bucket with a specific capacity and current amount of water.
 /// </summary>
@@ -130,7 +130,7 @@ public class WaterBucket
     public int CurrentAmount { get; set; }
 }
 
-// Class to represent a solution step
+
 /// <summary>
 /// Represents a solution step in the water bucket problem.
 /// </summary>
